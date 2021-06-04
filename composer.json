@@ -1,0 +1,17 @@
+{
+    "name": "sunnyflail/color-cli",
+    "description": "A simple abstraction over colorful cli messages!",
+    "type": "library",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "license": "MIT",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SunnyFlail\\Console\\" : ""
+        }
+    }
+}
